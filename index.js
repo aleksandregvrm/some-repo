@@ -189,7 +189,7 @@ const start = async () => {
       );
     });
   } catch (error) {
-    console.error("Error starting the server:", error);
+    console.error(error);
   }
 };
 start();
